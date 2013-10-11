@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6FEDCEE180818CF00F00290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FEDCED180818CF00F00290 /* UIKit.framework */; };
+		E6FEDCF0180818CF00F00290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FEDCEF180818CF00F00290 /* Foundation.framework */; };
+		E6FEDCF2180818CF00F00290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FEDCF1180818CF00F00290 /* CoreGraphics.framework */; };
+		E6FEDCF8180818CF00F00290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6FEDCF6180818CF00F00290 /* InfoPlist.strings */; };
+		E6FEDCFA180818CF00F00290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FEDCF9180818CF00F00290 /* main.m */; };
+		E6FEDCFE180818CF00F00290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FEDCFD180818CF00F00290 /* AppDelegate.m */; };
+		E6FEDD00180818CF00F00290 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FEDCFF180818CF00F00290 /* Default.png */; };
+		E6FEDD02180818CF00F00290 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FEDD01180818CF00F00290 /* Default@2x.png */; };
+		E6FEDD04180818CF00F00290 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6FEDD03180818CF00F00290 /* Default-568h@2x.png */; };
+		E6FEDD07180818CF00F00290 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FEDD06180818CF00F00290 /* ViewController.m */; };
+		E6FEDD0A180818CF00F00290 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FEDD08180818CF00F00290 /* ViewController.xib */; };
+		E6FEDD12180819C200F00290 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FEDD101808199A00F00290 /* FacebookSDK.framework */; };
+		E6FEDD14180824A800F00290 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FEDD13180824A800F00290 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6FEDCE9180818CF00F00290 /* LoginWIthFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginWIthFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FEDCED180818CF00F00290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6FEDCEF180818CF00F00290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6FEDCF1180818CF00F00290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6FEDCF5180818CF00F00290 /* LoginWIthFB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginWIthFB-Info.plist"; sourceTree = "<group>"; };
+		E6FEDCF7180818CF00F00290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6FEDCF9180818CF00F00290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6FEDCFB180818CF00F00290 /* LoginWIthFB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginWIthFB-Prefix.pch"; sourceTree = "<group>"; };
+		E6FEDCFC180818CF00F00290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6FEDCFD180818CF00F00290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6FEDCFF180818CF00F00290 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6FEDD01180818CF00F00290 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E6FEDD03180818CF00F00290 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E6FEDD05180818CF00F00290 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6FEDD06180818CF00F00290 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6FEDD09180818CF00F00290 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E6FEDD101808199A00F00290 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		E6FEDD13180824A800F00290 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6FEDCE6180818CF00F00290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FEDD14180824A800F00290 /* CoreLocation.framework in Frameworks */,
+				E6FEDD12180819C200F00290 /* FacebookSDK.framework in Frameworks */,
+				E6FEDCEE180818CF00F00290 /* UIKit.framework in Frameworks */,
+				E6FEDCF0180818CF00F00290 /* Foundation.framework in Frameworks */,
+				E6FEDCF2180818CF00F00290 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6FEDCDE180818CF00F00290 = {
+			isa = PBXGroup;
+			children = (
+				E6FEDD13180824A800F00290 /* CoreLocation.framework */,
+				E6FEDD101808199A00F00290 /* FacebookSDK.framework */,
+				E6FEDCF3180818CF00F00290 /* LoginWIthFB */,
+				E6FEDCEC180818CF00F00290 /* Frameworks */,
+				E6FEDCEA180818CF00F00290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6FEDCEA180818CF00F00290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEDCE9180818CF00F00290 /* LoginWIthFB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6FEDCEC180818CF00F00290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEDCED180818CF00F00290 /* UIKit.framework */,
+				E6FEDCEF180818CF00F00290 /* Foundation.framework */,
+				E6FEDCF1180818CF00F00290 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6FEDCF3180818CF00F00290 /* LoginWIthFB */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEDCFC180818CF00F00290 /* AppDelegate.h */,
+				E6FEDCFD180818CF00F00290 /* AppDelegate.m */,
+				E6FEDD05180818CF00F00290 /* ViewController.h */,
+				E6FEDD06180818CF00F00290 /* ViewController.m */,
+				E6FEDD08180818CF00F00290 /* ViewController.xib */,
+				E6FEDCF4180818CF00F00290 /* Supporting Files */,
+			);
+			path = LoginWIthFB;
+			sourceTree = "<group>";
+		};
+		E6FEDCF4180818CF00F00290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEDCF5180818CF00F00290 /* LoginWIthFB-Info.plist */,
+				E6FEDCF6180818CF00F00290 /* InfoPlist.strings */,
+				E6FEDCF9180818CF00F00290 /* main.m */,
+				E6FEDCFB180818CF00F00290 /* LoginWIthFB-Prefix.pch */,
+				E6FEDCFF180818CF00F00290 /* Default.png */,
+				E6FEDD01180818CF00F00290 /* Default@2x.png */,
+				E6FEDD03180818CF00F00290 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6FEDCE8180818CF00F00290 /* LoginWIthFB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FEDD0D180818CF00F00290 /* Build configuration list for PBXNativeTarget "LoginWIthFB" */;
+			buildPhases = (
+				E6FEDCE5180818CF00F00290 /* Sources */,
+				E6FEDCE6180818CF00F00290 /* Frameworks */,
+				E6FEDCE7180818CF00F00290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginWIthFB;
+			productName = LoginWIthFB;
+			productReference = E6FEDCE9180818CF00F00290 /* LoginWIthFB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6FEDCE0180818CF00F00290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = PasumaiSolutions;
+			};
+			buildConfigurationList = E6FEDCE3180818CF00F00290 /* Build configuration list for PBXProject "LoginWIthFB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6FEDCDE180818CF00F00290;
+			productRefGroup = E6FEDCEA180818CF00F00290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6FEDCE8180818CF00F00290 /* LoginWIthFB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6FEDCE7180818CF00F00290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FEDCF8180818CF00F00290 /* InfoPlist.strings in Resources */,
+				E6FEDD00180818CF00F00290 /* Default.png in Resources */,
+				E6FEDD02180818CF00F00290 /* Default@2x.png in Resources */,
+				E6FEDD04180818CF00F00290 /* Default-568h@2x.png in Resources */,
+				E6FEDD0A180818CF00F00290 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6FEDCE5180818CF00F00290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FEDCFA180818CF00F00290 /* main.m in Sources */,
+				E6FEDCFE180818CF00F00290 /* AppDelegate.m in Sources */,
+				E6FEDD07180818CF00F00290 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6FEDCF6180818CF00F00290 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6FEDCF7180818CF00F00290 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6FEDD08180818CF00F00290 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6FEDD09180818CF00F00290 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6FEDD0B180818CF00F00290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6FEDD0C180818CF00F00290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6FEDD0E180818CF00F00290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginWIthFB/LoginWIthFB-Prefix.pch";
+				INFOPLIST_FILE = "LoginWIthFB/LoginWIthFB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6FEDD0F180818CF00F00290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginWIthFB/LoginWIthFB-Prefix.pch";
+				INFOPLIST_FILE = "LoginWIthFB/LoginWIthFB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6FEDCE3180818CF00F00290 /* Build configuration list for PBXProject "LoginWIthFB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FEDD0B180818CF00F00290 /* Debug */,
+				E6FEDD0C180818CF00F00290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FEDD0D180818CF00F00290 /* Build configuration list for PBXNativeTarget "LoginWIthFB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FEDD0E180818CF00F00290 /* Debug */,
+				E6FEDD0F180818CF00F00290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6FEDCE0180818CF00F00290 /* Project object */;
+}
